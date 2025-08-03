@@ -66,6 +66,12 @@ mysql -h localhost -P 3306 -u dev -p playground
 # Enter password: dev
 ```
 
+Connect directly into the docker container:
+```bash
+docker exec -it sql-playground-db mysql -u dev -p
+# Enter password: dev
+```
+
 ## Sample Queries
 
 Once connected, try these sample queries:
@@ -105,7 +111,7 @@ docker-compose logs mysql
 
 ### Reset the database
 ```bash
-docker-compose down
+docker-compose down -v
 docker-compose up -d
 ```
 
