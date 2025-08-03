@@ -1,4 +1,4 @@
-# SQL Playground
+# SQL + Docker Practice
 
 A simple MySQL database environment for practicing SQL queries and experimenting with database operations.
 
@@ -39,7 +39,7 @@ This project provides a containerized MySQL database with sample data for learni
 1. Clone this repository:
    ```bash
    git clone <repository-url>
-   cd sql-playground
+   cd sql-practice
    ```
 
 2. Start the MySQL database:
@@ -118,7 +118,7 @@ docker-compose up -d
 ## File Structure
 
 ```
-sql-playground/
+sql-practice/
 ├── docker-compose.yml    # Docker Compose configuration
 ├── README.md            # This file
 └── init/
